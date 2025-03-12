@@ -1,0 +1,114 @@
+{
+  "user": [
+    {
+      "id": "1723199743592",
+      "name": "user",
+      "email": "user@gmail.com",
+      "phone": "32456756723",
+      "password": "1234",
+      "status": "unblock"
+    },
+    {
+      "id": "1723199768856",
+      "name": "user1",
+      "email": "user1@gmail.com",
+      "phone": "32456756723",
+      "password": "12345",
+      "status": "block"
+    },
+    {
+      "id": "1740397490844",
+      "name": "Rutvik",
+      "email": "rutvikbarott1213@gmail.com",
+      "phone": "",
+      "password": "raja",
+      "status": "unblock",
+      "img": "https://in.pinterest.com/pin/2322237301931509/"
+    },
+    {
+      "id": "1740398352893",
+      "name": "Shubham",
+      "email": "shubham@gmail.com",
+      "phone": "",
+      "password": "123",
+      "status": "unblock"
+    },
+    {
+      "id": "1740592731579",
+      "name": "prince",
+      "email": "shubham@gmail.com",
+      "phone": "3333+",
+      "password": "1234",
+      "status": "unblock"
+    },
+    {
+      "id": "1740592773645",
+      "name": "prince",
+      "email": "prince@gmail.com",
+      "phone": "45632148",
+      "password": "123456",
+      "status": "unblock",
+      "img": "https://www.pexels.com/photo/aerial-photography-of-road-near-seashore-3030043/"
+    }
+  ],
+  "admin": [
+    {
+      "id": "1",
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "password": "1234"
+    }
+  ],
+  "packages": [
+    {
+      "id": "2",
+      "url": "http://localhost:3000/img/package-2.jpg",
+      "city": "india",
+      "days": "6",
+      "person": "1",
+      "price": 156,
+      "desc": "lsajjhuk sd fd sd fsdfsdfsdfsdf fsa fasf a"
+    },
+    {
+      "id": "1740593005752",
+      "url": "https://images.pexels.com/photos/1721637/pexels-photo-1721637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": "1500",
+      "city": "Jesalmer",
+      "days": "4",
+      "person": "3",
+      "desc": "its aa good choice"
+    }
+  ],
+  "service": [
+    {
+      "id": "1",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxhhPx3kevkpTpgGTdZAlTNCNxrW0xRrWNBg&s",
+      "title": "WorldWide Tours",
+      "desc": "Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam"
+    },
+    {
+      "id": "2",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxhhPx3kevkpTpgGTdZAlTNCNxrW0xRrWNBg&s",
+      "title": "Hotel Reservation",
+      "desc": "Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam"
+    },
+    {
+      "id": "3",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxhhPx3kevkpTpgGTdZAlTNCNxrW0xRrWNBg&s",
+      "title": "Travel Guides",
+      "desc": "Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam"
+    },
+    {
+      "id": "4",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxhhPx3kevkpTpgGTdZAlTNCNxrW0xRrWNBg&s",
+      "title": "Hotel Reservation",
+      "desc": "Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam"
+    },
+    {
+      "id": "1721991261245",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAkllXExOi8qdqF5Poh46uyTljRpfcc0HZW-0NI77_W247TGjzLaMD7iEQ2RjGxLDaP9U&usqp=CAU",
+      "title": "Hotel service",
+      "desc": "hotel service provide asda asdfaklshdasn"
+    }
+  ]
+}
