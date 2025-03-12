@@ -1,0 +1,806 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+
+    /* For MOBILE: */
+    .col-s-1 {
+        width: 8.33%;
+    }
+
+    .col-s-2 {
+        width: 16.66%;
+    }
+
+    .col-s-3 {
+        width: 25%;
+    }
+
+    .col-s-4 {
+        width: 33.33%;
+    }
+
+    .col-s-5 {
+        width: 41.66%;
+    }
+
+    .col-s-6 {
+        width: 50%;
+    }
+
+    .col-s-7 {
+        width: 58.33%;
+    }
+
+    .col-s-8 {
+        width: 66.66%;
+    }
+
+    .col-s-9 {
+        width: 75%;
+    }
+
+    .col-s-10 {
+        width: 83.33%;
+    }
+
+    .col-s-11 {
+        width: 91.66%;
+    }
+
+    .col-s-12 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    /* For desktop: */
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
+
+.nav1 {
+    background-color: lightpink;
+    float: left;
+    padding: 10px 10px;
+}
+
+.nav2 {
+    background-color: lightpink;
+    float: right;
+    padding: 10px 10px;
+}
+
+.nav1 .nav2:hover {
+    color: brown;
+    cursor: pointer;
+}
+
+.nav3 {
+    padding: 10px 20px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav4 {
+    padding: 20px 20px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav4 a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav4 a:hover {
+    color: lightpink;
+}
+
+.nav5 {
+    padding: 20px 10px;
+}
+
+.nav5 a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+    padding: 10px 30px;
+    border: 1px white solid;
+    background-color: lightpink;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.nav5 a:hover {
+    cursor: pointer;
+    background-color: brown;
+}
+
+.nav6 {
+    padding: 20px 10px;
+}
+
+.nav6 a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+    padding: 10px 30px;
+    border: 1px white solid;
+    background-color: lightpink;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.nav6 a:hover {
+    cursor: pointer;
+    background-color: brown;
+
+}
+
+.nav7 {
+    background: linear-gradient(rgb(0, 0, 0, .5), rgb(0, 0, 0, .5)), url(/images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 500px;
+    text-align: center;
+}
+
+.nav7 h3 {
+    padding-top: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.nav7 h1 {
+    padding-top: 30px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    font-size: 100px;
+}
+
+.nav7 p {
+    padding-top: 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+    padding-bottom: 50px
+}
+
+.nav7 button {
+    padding: 20px 30px;
+    border: 1px white solid;
+    color: white;
+    background-color: rgb(255, 255, 255, 0.1);
+}
+
+.nav7 button:hover {
+    background-color: white;
+    color: black;
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+.nav8 .img {
+    padding: 60px 40px;
+}
+
+.nav9 {
+    padding: 60px 40px;
+}
+
+.nav9 .about {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: lightpink;
+
+
+
+}
+
+.nav9 .text {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+.nav9 .text2 {
+    padding-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    color: grey;
+    border-left: 3px lightpink solid;
+    padding-left: 10px;
+}
+
+.flex {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box1 {
+    text-align: center;
+    padding: 20px 20px;
+    background-color: rgba(240, 128, 128, 0.2);
+    color: rgba(240, 128, 128, 0.915);
+}
+
+.box1:hover {
+    background-color: brown;
+    color: white;
+}
+
+.box2 {
+    text-align: center;
+    padding: 20px 20px;
+    background-color: rgba(240, 128, 128, 0.2);
+    color: rgba(240, 128, 128, 0.915);
+}
+
+.box2:hover {
+    background-color: brown;
+    color: white;
+}
+
+.pp {
+    color: coral;
+    font-size: 1.5em;
+}
+
+.nav10 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: lightpink;
+    padding: 5px 0;
+
+}
+
+.nav11 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    padding: 10px 0;
+}
+
+.nav12 {
+    padding: 60px 40px;
+    background-color: rgb(0, 0, 0, .1);
+}
+
+.nav13 {
+    padding: 60px 40px;
+    background-color: rgb(0, 0, 0, .1);
+}
+
+.nav13 .text14 {
+    padding-top: 60px;
+    padding-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: lightpink;
+}
+
+.nav13 .text15 {
+    padding-top: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    color: grey;
+    border-left: 3px lightpink solid;
+    padding-left: 10px;
+}
+
+.nav16 {
+    padding: 60px 40px;
+    background-color: rgb(0, 0, 0, .1);
+}
+
+.nav17 {
+    padding: 60px 40px;
+    background-color: rgb(0, 0, 0, .1);
+}
+
+.nav17 .text18 {
+    padding-top: 60px;
+    padding-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: lightpink;
+}
+
+.nav17 .text19 {
+    padding-top: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    color: grey;
+    border-left: 3px lightpink solid;
+    padding-left: 10px;
+}
+
+/* SEC 4 START */
+.heading h3 {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: lightpink;
+    padding: 25px 0;
+}
+
+.sec4 {
+    background: url("/New folder/massageoicformbg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+form {
+    text-align: center;
+}
+
+/* SEC 5 START */
+.cardtext h3 {
+    text-align: center;
+    color: lightpink;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 10px;
+}
+
+.cardtext h1 {
+    text-align: center;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-bottom: 100px;
+}
+
+.gall {
+    padding-left: 20px;
+}
+
+.cumment {
+    text-align: center;
+    padding: 19px 13px;
+    background-color: lightcoral;
+    transform: translateY(-126px);
+    transition: .5s;
+}
+
+.icon {
+    margin-top: 45px;
+    text-align: center;
+    padding: 15px 15px;
+    background-color: black;
+    transform: translateY(-50px);
+    color: lightcoral;
+}
+
+.icons {
+    padding: 15px;
+    cursor: pointer;
+}
+
+.gall:hover .cumment {
+    transform: translateY(-50px);
+    opacity: 0;
+}
+
+.icons:hover {
+    background-color: lightcoral;
+    color: black;
+}
+
+/* SEC 6 START */
+.nav18 {
+    padding: 60px 40px;
+}
+
+.nav19 {
+    padding: 60px 40px;
+}
+
+.nav19 .text18 {
+    padding-top: 100px;
+    padding-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: lightpink;
+}
+
+.nav19 .text19 {
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: black;
+}
+
+.nav19 .text20 {
+    float: left;
+}
+
+.nav19 .text21 {
+    padding-top: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    color: grey;
+    border-left: 3px lightpink solid;
+    padding-left: 10px;
+
+}
+
+.nav19 .text22 {
+    float: right;
+    size: 50px;
+    color: lightpink;
+}
+
+.text24 {
+    border-radius: 50%;
+    float: left;
+
+}
+
+.text25 {
+    float: left;
+    font-size: 1.3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 555;
+    color: grey;
+}
+
+/* sec 7 start */
+.footer {
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+}
+
+.footer h1 {
+
+    font-size: 50px;
+    font-weight: 500;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+}
+
+.footer p {
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+
+}
+
+.footer .mail {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.social {
+    padding: 0 10px;
+    color: lightpink;
+    font-size: 30px;
+    padding-bottom: 40px;
+
+}
+
+.social:hover {
+    color: lightcoral;
+}
+
+.footer2 {
+    background-color: black;
+    color: white;
+    border-left: 1px grey solid;
+    padding-left: 40px;
+    padding-top: 90px;
+
+}
+
+.footerlist {
+    padding: 10px 20px;
+
+}
+
+.footer5 {
+    padding-top: 10px;
+    padding: 20px 20px
+}
+
+.footer5 .mail {
+    padding: 10px 10px;
+}
+
+.footer5 .signup {
+    background-color: lightpink;
+    color: white;
+    padding: 10px 10px;
+    border: .5px grey solid;
+}
+
+.signup:hover {
+    color: lightcoral;
+    cursor: pointer;
+}
+
+.last {
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    border-top: 1px grey solid;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.last1 {
+    background-color: black;
+    color: white;
+    text-align: right;
+    border-top: 1px grey solid;
+    padding-right: 80px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.about1 {
+    background: linear-gradient(rgb(0, 0, 0, .7), rgb(0, 0, 0, .7)), url(/images/about1.avif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    padding: 200px 0;
+}
+
+.about1 h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+    padding: 20px 0;
+}
+
+.about1 p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    padding: 5px 0;
+}
+
+.malek h1 {
+    padding: 50px 0;
+}
+
+.contact {
+    background: linear-gradient(rgb(0, 0, 0, .7), rgb(0, 0, 0, .7)), url(/images/about1.avif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    padding: 200px 0;
+}
+
+.contact h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+    padding: 20px 0;
+}
+
+.contact p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    padding: 5px 0;
+}
+
+.map-form {
+    padding: 50px 35px;
+}
+
+.container {
+    height: 450px;
+    width: 500x;
+    background-color: rgba(255, 182, 193, 0.228);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: grid;
+    place-content: center;
+
+}
+
+.container h1 {
+    text-align: center;
+    padding: 5px 0;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.form-group {
+    margin: 20px 0;
+}
+
+.form-group input {
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+}
+
+.form-group textarea {
+    border: none;
+    outline: none;
+    width: 100%;
+    resize: none;
+    padding: 20px;
+}
+
+#btn {
+    width: 40%;
+    height: 30px;
+    margin-bottom: 10px;
+    float: left;
+    text-transform: uppercase;
+    color: white;
+    background-color: lightpink;
+    font-weight: 600;
+    border: none;
+    transition: .5s;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: lightcoral;
+}
+
+.form1 h3 {
+    text-align: center;
+    color: lightpink;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.form1 h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+
+}
+
+.form2 {
+    background: url(/images/massagepicformbg.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+/* sec 4 form */
+
+.mass {
+    background-image: url(/images/picforformsection.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 500px;
+    color: white;
+}
+
+.mi {
+    background-color: rgb(0, 0, 0, .2);
+    margin: 0 auto;
+    transform: translateY(150px);
+}
+
+.sec {
+    font-size: 15px;
+}
+
+.mak {
+    text-align: center;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    background-color: lightpink;
+    cursor: pointer;
+    transition: .6s;
+}
+
+.mak:hover {
+    background-color: lightcoral;
+    color: white;
+}
+
+.m2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.m2 h3 {
+    font-size: 25px;
+    padding: 10px;
+    color: lightpink;
+}
+
+.m2 h1 {
+    font-size: 40px;
+    padding: 10px;
+}
